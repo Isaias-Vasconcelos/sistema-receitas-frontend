@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-CardReceita {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0.1px 0.1px 0.1px;
+    border: thin solid #c5c5c5;
+}
+
+
+img {
+    width: 300px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 90%;
+}
+
+.reacoes {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    gap: 5px;
+}
+
+#reacao-positiva {
+    cursor: pointer;
+}
+
+#reacao-negativa {
+    cursor: pointer;
+}
+
+#count-reacao-positiva {
+    color: #0eb90f;
+}
+
+#count-reacao-negativa {
+    color: #cc3632;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+    margin: 2px;
+}
+
+.titulo {
+    padding: 3px;
+    margin-bottom: 2px;
+}
