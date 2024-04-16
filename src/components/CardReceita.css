@@ -11,7 +11,6 @@
     width: 300px;
     background-color: white;
     box-shadow: 0.1px 0.1px 0.1px;
-    border: thin solid #c5c5c5;
 }
 
 
@@ -55,6 +54,20 @@ img:hover {
 }
 
 .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
     padding: 3px;
     margin-bottom: 2px;
+}
+
+.descricao {
+    font-size: 11pt;
+    overflow-wrap: break-word;
+    inline-size: 300px;
+}
+
+.titulo span {
+    font-size: 9pt;
 }

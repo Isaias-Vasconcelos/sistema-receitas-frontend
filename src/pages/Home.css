@@ -6,17 +6,32 @@
 
 .receitasFeed {
     max-height: 88vh;
+}
 
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 .entrada_texto {
-    border: none;
-    border-radius: 5px;
     width: 400px;
     height: 30px;
     font-size: medium;
     padding: 3px;
     margin: 2px;
+    background: none;
+    border: 2px solid #c5c5c5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #fe6962;
+    color: #fe6962;
+}
+
+.entrada_texto::placeholder {
+    color: #fe6962;
 }
 
 .container-Home {
@@ -27,5 +42,5 @@
 
 
 * {
-    scrollbar-width:none;
-  }
+    scrollbar-width: none;
+}
